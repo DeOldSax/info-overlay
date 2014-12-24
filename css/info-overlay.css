@@ -45,38 +45,35 @@
 	right: 0;
 }
 
-.info-overlay .toggle {
-	border: none;
-	background: rgba(255, 255, 255, 0.5);
-	background-color: transparent;
-	color: rgba(0, 0, 0, 0.5);
-	width: 20px;
-	height: 20px;
-}
-
-.info-overlay .toggle:hover, .toggleHover {
+.pointer {
 	cursor: pointer;
 }
 
-.info-overlay-top .toggle {
+.info-overlay.manual span {
+	color: rgba(0, 0, 0, 0.6);
+	display: none;
+	margin: 3px;
+}
+
+.info-overlay-top.manual span {
 	position: absolute;
 	right: 0;
 	bottom: 0; 
 }
 
-.info-overlay-bottom .toggle {
+.info-overlay-bottom.manual span {
 	position: absolute;
 	top: 0;
 	right: 0; 
 }
 
-.info-overlay-right .toggle {
+.info-overlay-right.manual span {
 	position: absolute;
 	top: 0;
 	left: 0; 
 }
 
-.info-overlay-left .toggle {
+.info-overlay-left.manual span {
 	position: absolute;
 	top: 0;
 	right: 0;
