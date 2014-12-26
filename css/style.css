@@ -1,4 +1,34 @@
 .info-overlay-box {
-	background: url(../img/image.jpg);
+	background: url(../img/2.jpg);
+	background-size: cover;
+}
 
+.one {
+	background: url(../img/1.jpg);
+	background-size: cover;
+}
+
+.two {
+	background: url(../img/2.jpg);
+	background-size: cover;
+}
+
+.three {
+	background: url(../img/3.jpg);
+	background-size: cover;
+}
+
+.four {
+	background: url(../img/4.jpg);
+	background-size: cover;
+}
+
+.five {
+	background: url(../img/5.jpg);
+	background-size: cover;
+}
+
+.six {
+	background: url(../img/6.jpg);
+	background-size: cover;
 }
